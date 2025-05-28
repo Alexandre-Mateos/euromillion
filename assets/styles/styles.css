@@ -8,3 +8,7 @@
     padding: 0.5rem;
     
 }
+.selectedStyle{
+    background-color: blue;
+    color: #ffffff;
+}
