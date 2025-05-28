@@ -26,13 +26,12 @@ function selectNumber (){
         }else{
         selectedNumber.push(buttonValue);
         }
+        buttonMainGrid[i].classList.toggle("selectedStyle");
         console.log(selectedNumber);
     } )
-};
+    }
 }
 
-function isSelected (){
-    
-}
+
 
 selectNumber();
